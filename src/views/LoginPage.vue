@@ -1,15 +1,35 @@
 <template>
   <div>
     <main>
+      <h1>LOGIN</h1>
+      <h3>TO PLAY!</h3>
+
       <!-- user's email : eve.holt@reqres.in -->
-      <label for="email">Email</label>
+      <label for="email"> Email </label>
       <input type="text" name="email" id="email" />
       <!-- user's pass : cityslicka -->
-      <label for="password">Password</label>
+      <label for="password"> Password </label>
       <input type="text" name="email" id="pass" />
       <!-- when the user hit's submit, they'll be taken to the game page -->
       <button @click="login">Submit</button>
     </main>
+
+    <div>
+      <img
+        src="https://media.baamboozle.com/uploads/images/164396/1637136389_114886_gif-url.gif"
+        alt="gif"
+      />
+    </div>
+
+    <!-- ASK MARK why is the first img taking over this img -->
+
+    <!-- <div>
+      <img
+        class="img"
+        src="https://media.baamboozle.com/uploads/images/164396/1637136389_114886_gif-url.gif"
+        alt="gif2"
+      />
+    </div> -->
   </div>
 </template>
 
@@ -43,7 +63,7 @@ export default {
         // if the email or password is incorrect, an alert will pop up for the user
         .catch((error) => {
           this.error = error;
-          this.error = alert("Incorret email or password");
+          this.error = alert("Incorrect email or password");
         });
     },
   },
@@ -56,4 +76,16 @@ export default {
 </script>
 
 <style scoped>
+img {
+  height: 100vh;
+  width: 45vw;
+  margin-right: 55%;
+}
+
+/* ASK MARK why is the first img taking over this img */
+.img {
+  height: 100vh;
+  width: 45vw;
+  margin-left: 55%;
+}
 </style>

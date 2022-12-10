@@ -1,5 +1,7 @@
 <template>
-  <div>Welcome to the game page</div>
+  <div>
+    <h1>Let's play!!</h1>
+  </div>
 </template>
 
 <script>
