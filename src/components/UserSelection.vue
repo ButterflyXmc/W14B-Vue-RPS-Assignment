@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <img @click="getRock" :src="rock.image" alt="rock" />
-    <img @click="getPaper" :src="paper.image" alt="paper" />
-    <img @click="getScissors" :src="scissors.image" alt="scissors" />
-  </div>
+  <div></div>
 </template>
 
 <script>
