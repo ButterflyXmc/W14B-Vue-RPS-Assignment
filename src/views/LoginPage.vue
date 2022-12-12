@@ -20,16 +20,6 @@
         alt="gif"
       />
     </div>
-
-    <!-- ASK MARK why is the first img taking over this img -->
-
-    <!-- <div>
-      <img
-        class="img"
-        src="https://media.baamboozle.com/uploads/images/164396/1637136389_114886_gif-url.gif"
-        alt="gif2"
-      />
-    </div> -->
   </div>
 </template>
 
@@ -80,12 +70,5 @@ img {
   height: 100vh;
   width: 45vw;
   margin-right: 55%;
-}
-
-/* ASK MARK why is the first img taking over this img */
-.img {
-  height: 100vh;
-  width: 45vw;
-  margin-left: 55%;
 }
 </style>
